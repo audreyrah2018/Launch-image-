@@ -1,0 +1,716 @@
+Microsoft Windows [Version 10.0.18363.778]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Davis>docker pull bkhosravifar/dockerizedapp
+Using default tag: latest
+latest: Pulling from bkhosravifar/dockerizedapp
+image operating system "linux" cannot be used on this platform
+
+C:\Users\Davis>docker ps -a
+CONTAINER ID        IMAGE                      COMMAND                   CREATED             STATUS              PORTS                NAMES
+e5c08e13f167        audreyaudrey/myapacheapp   "cmd /C 'type C:\\hel…"   4 days ago          Created             0.0.0.0:82->80/tcp   heuristic_payne
+c9e8c387b904        myapp                      "bash"                    4 days ago          Created                                  admiring_golick
+af842fe5dbca        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wonderful_bardeen
+b713a601300d        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wizardly_payne
+131393ca3f01        myapp                      "cmd /C 'type C:\\hel…"   4 days ago          Created                                  trusting_hopper
+6d4b5f5d56e9        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  boring_wilbur
+9ee50023be23        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  exciting_edison
+1565ae55f146        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  intelligent_poitras
+
+C:\Users\Davis>docker images
+REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+audreyaudrey/myapacheapp   latest              3b1afec5a463        4 days ago          251MB
+myapp                      latest              ab4503efa806        4 days ago          251MB
+hello-world                latest              c7f4e41fba3a        2 weeks ago         251MB
+
+C:\Users\Davis>docker run -d -p 80:80 bkhosravifar/dockerizedapp
+Unable to find image 'bkhosravifar/dockerizedapp:latest' locally
+latest: Pulling from bkhosravifar/dockerizedapp
+docker: image operating system "linux" cannot be used on this platform.
+See 'docker run --help'.
+
+C:\Users\Davis>docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+
+C:\Users\Davis>Microsoft Windows [Version 10.0.18363.778]
+'Microsoft' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>(c) 2019 Microsoft Corporation. All rights reserved.
+2019 was unexpected at this time.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker pull bkhosravifar/dockerizedapp
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>Using default tag: latest
+'Using' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>latest: Pulling from bkhosravifar/dockerizedapp
+'latest:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>image operating system "linux" cannot be used on this platform
+'image' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker ps -a
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>CONTAINER ID        IMAGE                      COMMAND                   CREATED             STATUS              PORTS                NAMES
+'CONTAINER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>e5c08e13f167        audreyaudrey/myapacheapp   "cmd /C 'type C:\\hel…"   4 days ago          Created             0.0.0.0:82->80/tcp   heuristic_payne
+The system cannot find the path specified.
+
+C:\Users\Davis>c9e8c387b904        myapp                      "bash"                    4 days ago          Created                                  admiring_golick
+'c9e8c387b904' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>af842fe5dbca        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wonderful_bardeen
+'af842fe5dbca' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>b713a601300d        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wizardly_payne
+'b713a601300d' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>131393ca3f01        myapp                      "cmd /C 'type C:\\hel…"   4 days ago          Created                                  trusting_hopper
+'131393ca3f01' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>6d4b5f5d56e9        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  boring_wilbur
+'6d4b5f5d56e9' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>9ee50023be23        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  exciting_edison
+'9ee50023be23' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>1565ae55f146        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  intelligent_poitras
+'1565ae55f146' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker images
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+'REPOSITORY' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>audreyaudrey/myapacheapp   latest              3b1afec5a463        4 days ago          251MB
+'audreyaudrey' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>myapp                      latest              ab4503efa806        4 days ago          251MB
+'myapp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>hello-world                latest              c7f4e41fba3a        2 weeks ago         251MB
+'hello-world' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker run -d -p 80:80 bkhosravifar/dockerizedapp
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>Unable to find image 'bkhosravifar/dockerizedapp:latest' locally
+'Unable' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>latest: Pulling from bkhosravifar/dockerizedapp
+'latest:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>docker: image operating system "linux" cannot be used on this platform.
+'docker:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>See 'docker run --help'.
+'See' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker ps
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+'CONTAINER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>Microsoft Windows [Version 10.0.18363.778]
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>(c) 2019 Microsoft Corporation. All rights reserved.
+2019 was unexpected at this time.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker pull bkhosravifar/dockerizedapp
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>Using default tag: latest
+'Using' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>latest: Pulling from bkhosravifar/dockerizedapp
+'latest:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>image operating system "linux" cannot be used on this platform
+'image' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker ps -a
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>CONTAINER ID        IMAGE                      COMMAND                   CREATED             STATUS              PORTS                NAMES
+'CONTAINER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>e5c08e13f167        audreyaudrey/myapacheapp   "cmd /C 'type C:\\hel…"   4 days ago          Created             0.0.0.0:82->80/tcp   heuristic_payne
+The system cannot find the path specified.
+
+C:\Users\Davis>c9e8c387b904        myapp                      "bash"                    4 days ago          Created                                  admiring_golick
+'c9e8c387b904' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>af842fe5dbca        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wonderful_bardeen
+'af842fe5dbca' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>b713a601300d        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wizardly_payne
+'b713a601300d' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>131393ca3f01        myapp                      "cmd /C 'type C:\\hel…"   4 days ago          Created                                  trusting_hopper
+'131393ca3f01' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>6d4b5f5d56e9        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  boring_wilbur
+'6d4b5f5d56e9' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>9ee50023be23        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  exciting_edison
+'9ee50023be23' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>1565ae55f146        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  intelligent_poitras
+'1565ae55f146' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker images
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+'REPOSITORY' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>audreyaudrey/myapacheapp   latest              3b1afec5a463        4 days ago          251MB
+'audreyaudrey' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>myapp                      latest              ab4503efa806        4 days ago          251MB
+'myapp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>hello-world                latest              c7f4e41fba3a        2 weeks ago         251MB
+'hello-world' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker run -d -p 80:80 bkhosravifar/dockerizedapp
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>Unable to find image 'bkhosravifar/dockerizedapp:latest' locally
+'Unable' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>latest: Pulling from bkhosravifar/dockerizedapp
+'latest:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>docker: image operating system "linux" cannot be used on this platform.
+'docker:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>See 'docker run --help'.
+'See' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker ps
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+'CONTAINER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>MM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.18363.778]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Davis>docker pull bkhosravifar/dockerizedapp
+Using default tag: latest
+latest: Pulling from bkhosravifar/dockerizedapp
+image operating system "linux" cannot be used on this platform
+
+C:\Users\Davis>docker ps -a
+CONTAINER ID        IMAGE                      COMMAND                   CREATED             STATUS              PORTS                NAMES
+e5c08e13f167        audreyaudrey/myapacheapp   "cmd /C 'type C:\\hel…"   4 days ago          Created             0.0.0.0:82->80/tcp   heuristic_payne
+c9e8c387b904        myapp                      "bash"                    4 days ago          Created                                  admiring_golick
+af842fe5dbca        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wonderful_bardeen
+b713a601300d        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wizardly_payne
+131393ca3f01        myapp                      "cmd /C 'type C:\\hel…"   4 days ago          Created                                  trusting_hopper
+6d4b5f5d56e9        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  boring_wilbur
+9ee50023be23        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  exciting_edison
+1565ae55f146        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  intelligent_poitras
+
+C:\Users\Davis>docker images
+REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+audreyaudrey/myapacheapp   latest              3b1afec5a463        4 days ago          251MB
+myapp                      latest              ab4503efa806        4 days ago          251MB
+hello-world                latest              c7f4e41fba3a        2 weeks ago         251MB
+
+C:\Users\Davis>docker run -d -p 80:80 bkhosravifar/dockerizedapp
+Unable to find image 'bkhosravifar/dockerizedapp:latest' locally
+latest: Pulling from bkhosravifar/dockerizedapp
+docker: image operating system "linux" cannot be used on this platform.
+See 'docker run --help'.
+
+C:\Users\Davis>docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+
+C:\Users\Davis>Microsoft Windows [Version 10.0.18363.778]
+'Microsoft' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>(c) 2019 Microsoft Corporation. All rights reserved.
+2019 was unexpected at this time.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker pull bkhosravifar/dockerizedapp
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>Using default tag: latest
+'Using' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>latest: Pulling from bkhosravifar/dockerizedapp
+'latest:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>image operating system "linux" cannot be used on this platform
+'image' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker ps -a
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>CONTAINER ID        IMAGE                      COMMAND                   CREATED             STATUS              PORTS                NAMES
+'CONTAINER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>e5c08e13f167        audreyaudrey/myapacheapp   "cmd /C 'type C:\\hel…"   4 days ago          Created             0.0.0.0:82->80/tcp   heuristic_payne
+The system cannot find the path specified.
+
+C:\Users\Davis>c9e8c387b904        myapp                      "bash"                    4 days ago          Created                                  admiring_golick
+'c9e8c387b904' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>af842fe5dbca        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wonderful_bardeen
+'af842fe5dbca' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>b713a601300d        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wizardly_payne
+'b713a601300d' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>131393ca3f01        myapp                      "cmd /C 'type C:\\hel…"   4 days ago          Created                                  trusting_hopper
+'131393ca3f01' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>6d4b5f5d56e9        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  boring_wilbur
+'6d4b5f5d56e9' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>9ee50023be23        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  exciting_edison
+'9ee50023be23' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>1565ae55f146        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  intelligent_poitras
+'1565ae55f146' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker images
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+'REPOSITORY' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>audreyaudrey/myapacheapp   latest              3b1afec5a463        4 days ago          251MB
+'audreyaudrey' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>myapp                      latest              ab4503efa806        4 days ago          251MB
+'myapp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>hello-world                latest              c7f4e41fba3a        2 weeks ago         251MB
+'hello-world' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker run -d -p 80:80 bkhosravifar/dockerizedapp
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>Unable to find image 'bkhosravifar/dockerizedapp:latest' locally
+'Unable' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>latest: Pulling from bkhosravifar/dockerizedapp
+'latest:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>docker: image operating system "linux" cannot be used on this platform.
+'docker:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>See 'docker run --help'.
+'See' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker ps
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+'CONTAINER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>Microsoft Windows [Version 10.0.18363.778]
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>(c) 2019 Microsoft Corporation. All rights reserved.
+2019 was unexpected at this time.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker pull bkhosravifar/dockerizedapp
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>Using default tag: latest
+'Using' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>latest: Pulling from bkhosravifar/dockerizedapp
+'latest:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>image operating system "linux" cannot be used on this platform
+'image' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker ps -a
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>CONTAINER ID        IMAGE                      COMMAND                   CREATED             STATUS              PORTS                NAMES
+'CONTAINER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>e5c08e13f167        audreyaudrey/myapacheapp   "cmd /C 'type C:\\hel…"   4 days ago          Created             0.0.0.0:82->80/tcp   heuristic_payne
+The system cannot find the path specified.
+
+C:\Users\Davis>c9e8c387b904        myapp                      "bash"                    4 days ago          Created                                  admiring_golick
+'c9e8c387b904' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>af842fe5dbca        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wonderful_bardeen
+'af842fe5dbca' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>b713a601300d        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  wizardly_payne
+'b713a601300d' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>131393ca3f01        myapp                      "cmd /C 'type C:\\hel…"   4 days ago          Created                                  trusting_hopper
+'131393ca3f01' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>6d4b5f5d56e9        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  boring_wilbur
+'6d4b5f5d56e9' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>9ee50023be23        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  exciting_edison
+'9ee50023be23' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>1565ae55f146        hello-world                "cmd /C 'type C:\\hel…"   4 days ago          Created                                  intelligent_poitras
+'1565ae55f146' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker images
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+'REPOSITORY' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>audreyaudrey/myapacheapp   latest              3b1afec5a463        4 days ago          251MB
+'audreyaudrey' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>myapp                      latest              ab4503efa806        4 days ago          251MB
+'myapp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>hello-world                latest              c7f4e41fba3a        2 weeks ago         251MB
+'hello-world' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker run -d -p 80:80 bkhosravifar/dockerizedapp
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>Unable to find image 'bkhosravifar/dockerizedapp:latest' locally
+'Unable' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>latest: Pulling from bkhosravifar/dockerizedapp
+'latest:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>docker: image operating system "linux" cannot be used on this platform.
+'docker:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>See 'docker run --help'.
+'See' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>docker ps
+'C:\Users\Davis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+'CONTAINER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Davis>
+C:\Users\Davis>C:\Users\Davis>MM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Audrey class 3 exercise 1
+
+Davis@DESKTOP-5M15C63 MINGW64 ~
+$ docker pull bkhosravifar/dockerizedapp
+Using default tag: latest
+latest: Pulling from bkhosravifar/dockerizedapp
+image operating system "linux" cannot be used on this platform
+
+Davis@DESKTOP-5M15C63 MINGW64 ~
+$ docker images
+REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+audreyaudrey/myapacheapp   latest              3b1afec5a463        4 days ago          251MB
+myapp                      latest              ab4503efa806        4 days ago          251MB
+hello-world                latest              c7f4e41fba3a        2 weeks ago         251MB
+
+Davis@DESKTOP-5M15C63 MINGW64 ~
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+
+Davis@DESKTOP-5M15C63 MINGW64 ~
+$ docker run -d -p 80:80 bkhosravifar/dockerizedapp
+Unable to find image 'bkhosravifar/dockerizedapp:latest' locally
+latest: Pulling from bkhosravifar/dockerizedapp
+C:\Program Files\Docker\Docker\resources\bin\docker.exe: image operating system "linux" cannot be used on this platform.
+See 'C:\Program Files\Docker\Docker\resources\bin\docker.exe run --help'.
+
+Davis@DESKTOP-5M15C63 MINGW64 ~
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
